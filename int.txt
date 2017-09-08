@@ -1,20 +1,7 @@
-Help on int object:
-
 class int(object)
  |  int(x=0) -> int or long
  |  int(x, base=10) -> int or long
  |  
- |  Convert a number or string to an integer, or return 0 if no arguments
- |  are given.  If x is floating point, the conversion truncates towards zero.
- |  If x is outside the integer range, the function returns a long instead.
- |  
- |  If x is not a number or if base is given, then x must be a string or
- |  Unicode object representing an integer literal in the given base.  The
- |  literal can be preceded by '+' or '-' and be surrounded by whitespace.
- |  The base defaults to 10.  Valid bases are 0 and 2-36.  Base 0 means to
- |  interpret the base from the string as an integer literal.
- |  >>> int('0b100', base=0)
- |  4
  |  
  |  Methods defined here:
  |  
@@ -66,8 +53,7 @@ class int(object)
  |  
  |  __invert__(...)
  |      x.__invert__() <==> ~x
-:
-|  
+ |  
  |  __long__(...)
  |      x.__long__() <==> long(x)
  |  
@@ -135,8 +121,7 @@ class int(object)
  |      x.__rrshift__(y) <==> y>>x
  |  
  |  __rshift__(...)
-:
-|  __ror__(...)
+ |  __ror__(...)
  |      x.__ror__(y) <==> y|x
  |  
  |  __rpow__(...)
@@ -175,7 +160,7 @@ class int(object)
  |  bit_length(...)
  |      int.bit_length() -> int
  |      
- |      Number of bits necessary to represent self in binary.
+ |      Number of bits necessary to represent self in 				binary.
  |      >>> bin(37)
  |      '0b100101'
  |      >>> (37).bit_length()
@@ -184,7 +169,7 @@ class int(object)
  |  conjugate(...)
  |      Returns self, the complex conjugate of any int.
  |  
- |  ----------------------------------------------------------------------
+ |  -----------------------------------------------------
  |  Data descriptors defined here:
  |  
  |  denominator
@@ -199,9 +184,6 @@ class int(object)
  |  real
  |      the real part of a complex number
  |  
- |  ----------------------------------------------------------------------
- |  Data and other attributes defined here:
- |  
- |  __new__ = <built-in method __new__ of type object>
- |      T.__new__(S, ...) -> a new object with type S, a subtype of T
-(END)
+ |  --------------------------------------------------------
+ 
+

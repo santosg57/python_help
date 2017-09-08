@@ -1,4 +1,7 @@
-Help on float object:
+Número de parámetros:  2
+Lista de argumentos:  ['python_help.py', 'float']
+float
+Help on class float in module __builtin__:
 
 class float(object)
  |  float(x) -> floating point number
@@ -65,8 +68,7 @@ class float(object)
  |  
  |  __le__(...)
  |      x.__le__(y) <==> x<=y
-:
-|  
+ |  
  |  __long__(...)
  |      x.__long__() <==> long(x)
  |  
@@ -134,8 +136,6 @@ class float(object)
  |      'IEEE, big-endian' or 'IEEE, little-endian', and in addition can only be
  |      one of the latter two if it appears to match the underlying C reality.
  |      
-:
-|      
  |      Override the automatic determination of C-level floating point type.
  |      This affects how floats are converted to and from binary strings.
  |  
@@ -203,4 +203,5 @@ class float(object)
  |  
  |  __new__ = <built-in method __new__ of type object>
  |      T.__new__(S, ...) -> a new object with type S, a subtype of T
-(END)
+
+None
